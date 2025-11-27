@@ -151,6 +151,7 @@ Screenshots / Demo (선택)
   <img width="700" alt="Image" src="https://github.com/user-attachments/assets/a4690cc2-711d-46d5-827c-4e690a3f9948" />
 
 - 팝업<br>
+  ![진짜추천팝업](https://github.com/user-attachments/assets/c1a5b82f-fb42-48e9-bb58-5a2f87223550)
 
 
 - 랭킹 전체보기<br>
