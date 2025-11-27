@@ -71,10 +71,169 @@ I was responsible for both the **backend core logic** and several **frontend (Vu
 
 
 Tech Stack (BE/FE/AI/Infra)
+## 🛠 Tech Stack
 
+### 💻 Backend  
+![Java](https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F.svg?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C.svg?style=for-the-badge&logo=hibernate&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000.svg?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-B7178C.svg?style=for-the-badge)
+
+### 🎨 Frontend  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![ES6](https://img.shields.io/badge/ES6-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Fetch API](https://img.shields.io/badge/Fetch_API-02569B.svg?style=for-the-badge)
+![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge)
+![dayjs](https://img.shields.io/badge/day.js-EC4A3F.svg?style=for-the-badge)
+
+### 🎨 Design  
+![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+### 🗄️ Database  
+![MariaDB](https://img.shields.io/badge/MariaDB-003545.svg?style=for-the-badge&logo=mariadb&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-B7178C.svg?style=for-the-badge)
+
+### 🔧 Tools  
+![Notion](https://img.shields.io/badge/Notion-000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853.svg?style=for-the-badge&logo=googlesheets&logoColor=white)
+![ERD Cloud](https://img.shields.io/badge/ERD_Cloud-4285F4.svg?style=for-the-badge)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
+
+       
 Project Architecture (선택)
 
 Screenshots / Demo (선택)
+<details>
+  <summary>로그인</summary>
+
+- 구글 로그인<br>
+  ![Image](https://github.com/user-attachments/assets/e7f5e196-9fc2-4a84-aaba-e3ce22eca34e)
+
+- 네이버 로그인<br>
+  ![Image](https://github.com/user-attachments/assets/88810a05-d6ce-4365-81c3-bf9d27716fce)
+
+- 카카오 로그인<br>
+  ![Image](https://github.com/user-attachments/assets/ff5d2d9e-0763-4720-9d23-7a192bcc4613)
+
+- 관리자 로그인<br>
+  ![Image](https://github.com/user-attachments/assets/fc78136b-ccff-46f2-804e-b545005132f1)
+
+</details>
+
+<details>
+  <summary>관리자 회원관리</summary>
+
+- 회원 정지<br>
+  ![Image](https://github.com/user-attachments/assets/a6ea0053-7797-4360-9d43-6ae854b40bc7)
+
+- 회원 활성화<br>
+  ![Image](https://github.com/user-attachments/assets/d817200c-ceda-4bb8-85a6-0452cee3513d)
+
+- 페이지네이션<br>
+  ![Image](https://github.com/user-attachments/assets/15c6df88-d63d-44e7-bf19-ea32d56ec23e)
+
+</details>
+
+<details>
+  <summary>홈 화면</summary>
+
+- 홈<br>
+  <img width="700" alt="Image" src="https://github.com/user-attachments/assets/a4690cc2-711d-46d5-827c-4e690a3f9948" />
+
+- 팝업<br>
+
+
+- 랭킹 전체보기<br>
+  ![Image](https://github.com/user-attachments/assets/7bce638d-865f-42c5-9697-aa79b618ac79)
+
+- 공지사항 이동<br>
+  ![Image](https://github.com/user-attachments/assets/832f345c-eba1-4564-9257-f7ad36fda381)
+
+</details>
+
+<details>
+  <summary>마이페이지</summary>
+
+- 회원 정보 수정<br>
+  ![Image](https://github.com/user-attachments/assets/f6fc7db4-8600-419c-9d8f-475d033527a9)
+
+- 포인트 상세 내역 조회 이동<br>
+  ![Image](https://github.com/user-attachments/assets/61697c32-2141-4d4a-b0bb-00da00d0ff8c)
+
+- 내 피드 모아보기&클릭시 해당 피드로 이동<br>
+  ![Image](https://github.com/user-attachments/assets/ccbdd0d2-cfb9-46c6-81a6-a6ddc70a24bc)
+
+</details>
+
+<details>
+  <summary>피드</summary>
+
+- 피드 작성<br>
+  ![write-successimg](https://github.com/user-attachments/assets/b23f69fd-3147-4d63-9bbc-be80e45423a9)
+ 
+- 피드 조회<br>
+ ![list-successimg](https://github.com/user-attachments/assets/80494e33-ce71-44c3-8d24-5b1aac7b093a)
+
+- 피드 수정<br>
+  ![edit-successimg](https://github.com/user-attachments/assets/65a05779-9255-428d-90a3-f1442fc595a3)
+
+- 피드 삭제<br>
+  ![delete-successimg](https://github.com/user-attachments/assets/0f7ecc09-c784-4d09-8908-a7600dbef29b)
+
+- 피드좋아요<br>
+  ![feedlike-successimg](https://github.com/user-attachments/assets/0dbed72a-490d-47be-9772-8fff00eb7728)
+
+</details>
+
+<details>
+  <summary>상점</summary>
+
+- 아이템 등록<br>
+![ezgif-1f2d9e2ff2f7290f](https://github.com/user-attachments/assets/fc9db298-dec8-41f0-834f-c810243d8f5a)
+
+- 아이템 수정<br>
+![아이템 수정](https://github.com/user-attachments/assets/f96fe94b-be6f-4d35-84f1-05230058689a)
+
+- 아이템 삭제<br>
+ ![아이템 삭제](https://github.com/user-attachments/assets/b5918312-0255-40e4-abc9-6e3803ede724)
+ 
+- 아이템 조회<br>
+![아이템 조회](https://github.com/user-attachments/assets/616facdb-00e8-4027-aa9e-90e686a86a7f)
+
+
+</details>
+
+<details>
+  <summary>신고 처리</summary>
+
+  - 신고 처리<br>
+  ![신고 처리](https://github.com/user-attachments/assets/f8072048-7432-488a-90a5-087ae14b9891)
+</details>
+
+<details>
+  <summary>공지사항</summary>
+
+  - 공지사항<br>
+  ![공지사항](https://github.com/user-attachments/assets/9d811aa8-2ded-4f9a-96c2-c9cb33a38cb1)
+</details>
+
+<details>
+  <summary>사용자 알림</summary>
+
+  - 사용자 알림<br>
+  ![알림](https://github.com/user-attachments/assets/4740e163-f1f8-4cf0-8a73-c3610b872587)
+</details>
+
 
 Folder Structure (선택)
 
