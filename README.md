@@ -10,7 +10,7 @@
   - Recommends tourist spots and one-day courses based on user profile, preferences, and current season.
 
 - **Ranking System**
-  - Global / regional leaderboard based on the number of conquered regions and accumulated points.
+  - Global / regional leaderboard based on the number of conquered regions.
 
 - **Point System**
   - Users earn points by:
@@ -20,24 +20,55 @@
 
 - **Decoration Shop**
   - In-app shop where users can spend their points to buy items used to decorate their conquered territory map.
+    
+- **Social Feed**
+  - Users can create posts with photos and text, similar to an Instagram-style feed, allowing them to share their travel moments and interact with others through likes.
+
 
 ## 🧑‍💻 My Contributions
 
-I was mainly responsible for the core **backend logic** of the platform, including:
+I was responsible for both the **backend core logic** and several **frontend (Vue) features**, with a major focus on the recommendation, ranking, and point systems.
 
-- **Recommendation Engine**
+- **Recommendation Engine (Backend + GPT Integration + Frontend UI)**
   - Designed the DTOs and service layer for personalized travel recommendations.
-  - Implemented filtering and scoring logic based on user preferences, season, and region.
+  - Built a **rule-based scoring system** that evaluates ~850 officially designated tourism spots
+    (tourism regions and districts defined by Metropolitan Mayors; excluding special tourism zones).
+  - Preprocessed and labeled raw tourism data in Google Colab:
+    - Normalized spot categories into **Culture / Nature / Experience / History**
+    - Assigned **recommended seasons** using keyword-based mapping  
+    - Converted the final dataset to a structured JSON file for fast lookup in the backend
+  - Implemented a scoring model assigning points based on:
+    - **Preferred category match (+30)**  
+    - **Preferred season & *Current season match (+20)**  
+    - **Age match (+15)**  
+    - Additional heuristic weights for region relevance and diversity
+  - Selected the top 3 scored spots and generated a **natural-language one-day itinerary** by calling the **GPT API**, including:
+    - Smooth narrative explanation  
+    - Visit order suggestion  
+    - Contextual notes and **safety/caution points**
+  - Integrated the recommendation API into the frontend, enabling users to view their suggested itinerary in a **popup on the home screen**.
 
-- **Ranking System**
-  - Implemented the ranking logic based on the number of conquered regions and user points.
-  - Exposed APIs for retrieving leaderboard data used by the frontend.
+- **Ranking System (Backend + Frontend)**
+  - Built the ranking logic based on conquered regions and accumulated user points.
+  - Developed APIs and implemented the leaderboard UI in Vue.
 
-- **Point System**
-  - Designed and implemented the point accumulation mechanism for:
-    - Region conquest events
-    - Receiving likes on feed posts
-  - Managed point logs and total points per user, enabling point usage in the in-app shop.
+- **Point System (Backend  + Frontend)**
+  - Designed and implemented a multi-rule point mechanism, including:
+    - **+5 points** for conquering a new region (동 단위)
+    - **+10 bonus points** when conquering a region with fewer than 100 conquerors in the current month
+    - **+5 points** when receiving a like on a feed post
+  - Implemented point deduction logic for in-app shop purchases.
+  - Built APIs for retrieving a detailed point transaction history (earnings, deductions, event types).
+  - Managed point logs and maintained users’ total accumulated points for ranking and shop usage.
+
+- **Frontend Development (Vue)**
+  - Developed UI components for:
+    - Recommendation popup  
+    - Ranking leaderboard  
+    - Territory conquest visualization  
+    - Point display and shop interaction  
+  - Ensured smooth communication between backend APIs and frontend components.
+
 
 Tech Stack (BE/FE/AI/Infra)
 
