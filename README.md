@@ -112,126 +112,125 @@ Tech Stack (BE/FE/AI/Infra)
        
 Project Architecture (선택)
 
-Screenshots / Demo (선택)
+## 🎬 Demo
 <details>
-  <summary>로그인</summary>
+  <summary>Login</summary>
 
-- 구글 로그인<br>
+- Google Login<br>
   ![Image](https://github.com/user-attachments/assets/e7f5e196-9fc2-4a84-aaba-e3ce22eca34e)
 
-- 네이버 로그인<br>
+- Naver Login<br>
   ![Image](https://github.com/user-attachments/assets/88810a05-d6ce-4365-81c3-bf9d27716fce)
 
-- 카카오 로그인<br>
+- Kakao Login<br>
   ![Image](https://github.com/user-attachments/assets/ff5d2d9e-0763-4720-9d23-7a192bcc4613)
 
-- 관리자 로그인<br>
+- Admin Login<br>
   ![Image](https://github.com/user-attachments/assets/fc78136b-ccff-46f2-804e-b545005132f1)
 
 </details>
 
 <details>
-  <summary>관리자 회원관리</summary>
+  <summary>Admin Membership Management</summary>
 
-- 회원 정지<br>
+- Suspension of membership<br>
   ![Image](https://github.com/user-attachments/assets/a6ea0053-7797-4360-9d43-6ae854b40bc7)
 
-- 회원 활성화<br>
+- Activation of membership<br>
   ![Image](https://github.com/user-attachments/assets/d817200c-ceda-4bb8-85a6-0452cee3513d)
 
-- 페이지네이션<br>
+- Pagination<br>
   ![Image](https://github.com/user-attachments/assets/15c6df88-d63d-44e7-bf19-ea32d56ec23e)
 
 </details>
 
 <details>
-  <summary>홈 화면</summary>
+  <summary>Home Screen</summary>
 
-- 홈<br>
+- Home<br>
   <img width="700" alt="Image" src="https://github.com/user-attachments/assets/a4690cc2-711d-46d5-827c-4e690a3f9948" />
 
-- 팝업<br>
+- Recommenation Pop-Up<br>
   ![진짜추천팝업](https://github.com/user-attachments/assets/c1a5b82f-fb42-48e9-bb58-5a2f87223550)
 
-
-- 랭킹 전체보기<br>
+- View the rankings in full<br>
   ![Image](https://github.com/user-attachments/assets/7bce638d-865f-42c5-9697-aa79b618ac79)
 
-- 공지사항 이동<br>
+- Notice<br>
   ![Image](https://github.com/user-attachments/assets/832f345c-eba1-4564-9257-f7ad36fda381)
 
 </details>
 
 <details>
-  <summary>마이페이지</summary>
+  <summary>My-Page</summary>
 
-- 회원 정보 수정<br>
+- Modifying Membership Information<br>
   ![Image](https://github.com/user-attachments/assets/f6fc7db4-8600-419c-9d8f-475d033527a9)
 
-- 포인트 상세 내역 조회 이동<br>
+- Point Details Inquiry<br>
   ![Image](https://github.com/user-attachments/assets/61697c32-2141-4d4a-b0bb-00da00d0ff8c)
 
-- 내 피드 모아보기&클릭시 해당 피드로 이동<br>
+- Gather My Feed & Click to go to that feed<br>
   ![Image](https://github.com/user-attachments/assets/ccbdd0d2-cfb9-46c6-81a6-a6ddc70a24bc)
 
 </details>
 
 <details>
-  <summary>피드</summary>
+  <summary>Feed</summary>
 
-- 피드 작성<br>
+- Writing Feed<br>
   ![write-successimg](https://github.com/user-attachments/assets/b23f69fd-3147-4d63-9bbc-be80e45423a9)
  
-- 피드 조회<br>
+- View Feed<br>
  ![list-successimg](https://github.com/user-attachments/assets/80494e33-ce71-44c3-8d24-5b1aac7b093a)
 
-- 피드 수정<br>
+- Modify Feed<br>
   ![edit-successimg](https://github.com/user-attachments/assets/65a05779-9255-428d-90a3-f1442fc595a3)
 
-- 피드 삭제<br>
+- Delete Feed<br>
   ![delete-successimg](https://github.com/user-attachments/assets/0f7ecc09-c784-4d09-8908-a7600dbef29b)
 
-- 피드좋아요<br>
+- Giving Like to Feed<br>
   ![feedlike-successimg](https://github.com/user-attachments/assets/0dbed72a-490d-47be-9772-8fff00eb7728)
 
 </details>
 
 <details>
-  <summary>상점</summary>
+  <summary>Store</summary>
 
-- 아이템 등록<br>
+- Item Registration<br>
 ![ezgif-1f2d9e2ff2f7290f](https://github.com/user-attachments/assets/fc9db298-dec8-41f0-834f-c810243d8f5a)
 
-- 아이템 수정<br>
+- Item Modification<br>
 ![아이템 수정](https://github.com/user-attachments/assets/f96fe94b-be6f-4d35-84f1-05230058689a)
 
-- 아이템 삭제<br>
+- Item Deletion<br>
  ![아이템 삭제](https://github.com/user-attachments/assets/b5918312-0255-40e4-abc9-6e3803ede724)
  
-- 아이템 조회<br>
+- Item View<br>
 ![아이템 조회](https://github.com/user-attachments/assets/616facdb-00e8-4027-aa9e-90e686a86a7f)
 
 
 </details>
 
 <details>
-  <summary>신고 처리</summary>
+  <summary>Report Processing</summary>
 
-  - 신고 처리<br>
+  - Report Processing<br>
   ![신고 처리](https://github.com/user-attachments/assets/f8072048-7432-488a-90a5-087ae14b9891)
 </details>
 
 <details>
-  <summary>공지사항</summary>
+  <summary>Notice</summary>
 
-  - 공지사항<br>
+  - Notice<br>
   ![공지사항](https://github.com/user-attachments/assets/9d811aa8-2ded-4f9a-96c2-c9cb33a38cb1)
 </details>
 
 <details>
-  <summary>사용자 알림</summary>
+  <summary>User Alarm</summary>
 
-  - 사용자 알림<br>
+  - User Alarm <br>
   ![알림](https://github.com/user-attachments/assets/4740e163-f1f8-4cf0-8a73-c3610b872587)
 </details>
 
