@@ -47,6 +47,7 @@ I was responsible for both the **backend core logic** and several **frontend (Vu
     - Visit order suggestion  
     - Contextual notes and **safety/caution points**
   - Integrated the recommendation API into the frontend, enabling users to view their suggested itinerary in a **popup on the home screen**.
+✨ For a detailed overview of the **Data & Recommendation Engine**, including scoring, preprocessing, and GPT-powered itinerary generation, see [RECOMMENDATION DOCS](docs/recommendation.md).
 
 - **Ranking System (Backend + Frontend)**
   - Built the ranking logic based on conquered regions and accumulated user points.
@@ -69,8 +70,6 @@ I was responsible for both the **backend core logic** and several **frontend (Vu
     - Point display and shop interaction  
   - Ensured smooth communication between backend APIs and frontend components.
     
-Data & Recommendation Engine (너 프로젝트 핵심✨)   
-
 Tech Stack (BE/FE/AI/Infra)
 ## 🛠 Tech Stack
 
