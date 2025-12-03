@@ -68,7 +68,8 @@ I was responsible for both the **backend core logic** and several **frontend (Vu
     - Territory conquest visualization  
     - Point display and shop interaction  
   - Ensured smooth communication between backend APIs and frontend components.
-
+    
+Data & Recommendation Engine (너 프로젝트 핵심✨)   
 
 Tech Stack (BE/FE/AI/Infra)
 ## 🛠 Tech Stack
@@ -92,6 +93,9 @@ Tech Stack (BE/FE/AI/Infra)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge)
 ![dayjs](https://img.shields.io/badge/day.js-EC4A3F.svg?style=for-the-badge)
 
+### 🤖 AI/ML
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+
 ### 🎨 Design  
 ![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
@@ -109,8 +113,19 @@ Tech Stack (BE/FE/AI/Infra)
 ![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
 
-       
-Project Architecture (선택)
+
+
+## 🏗️ Project Architecture
+
+1️⃣ Users interact with the **Frontend (Vue.js)**  
+2️⃣ Requests are sent to the **Backend (Java Spring)**  
+3️⃣ The Backend handles:
+   - Database operations (**MariaDB**)  
+   - Recommendation requests via **GPT API**  
+4️⃣ Responses are sent back to the **Frontend** and displayed to the user
+** ✨Core Feature: Recommendation Engine**  
+- Personalized recommendations powered by **GPT API**
+  
 
 ## 🎬 Demo
 <details>
@@ -234,11 +249,6 @@ Project Architecture (선택)
   ![알림](https://github.com/user-attachments/assets/4740e163-f1f8-4cf0-8a73-c3610b872587)
 </details>
 
+## 🔗API Overview 
+http://localhost:8080/swagger-ui/index.html
 
-Folder Structure (선택)
-
-How to Run (로컬 실행 방법)
-
-API Overview (선택)
-
-Data & Recommendation Engine (너 프로젝트 핵심✨)
