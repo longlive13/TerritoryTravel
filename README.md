@@ -30,34 +30,18 @@
 I was responsible for both the **backend core logic** and several **frontend (Vue) features**, with a major focus on the recommendation, ranking, and point systems.
 
 - **Recommendation Engine (Backend + GPT Integration + Frontend UI)**
-  - Designed the DTOs and service layer for personalized travel recommendations.
-  - Built a **rule-based scoring system** that evaluates ~850 officially designated tourism spots
-    (tourism regions and districts defined by Metropolitan Mayors; excluding special tourism zones).
-  - Preprocessed and labeled raw tourism data in Google Colab:
-    - Normalized spot categories into **Culture / Nature / Experience / History**
-    - Assigned **recommended seasons** using keyword-based mapping  
-    - Converted the final dataset to a structured JSON file for fast lookup in the backend
-  - Implemented a scoring model assigning points based on:
-    - **Preferred category match (+30)**  
-    - **Preferred season & *Current season match (+20)**  
-    - **Age match (+15)**  
-    - Additional heuristic weights for region relevance and diversity
-  - Selected the top 3 scored spots and generated a **natural-language one-day itinerary** by calling the **GPT API**, including:
-    - Smooth narrative explanation  
-    - Visit order suggestion  
-    - Contextual notes and **safety/caution points**
-  - Integrated the recommendation API into the frontend, enabling users to view their suggested itinerary in a **popup on the home screen**.
-✨ For a detailed overview of the **Data & Recommendation Engine**, including scoring, preprocessing, and GPT-powered itinerary generation, see [RECOMMENDATION DOCS](docs/recommendation.md).
+  - Designed and implemented a personalized recommendation engine based on a dataset of ~850 tourist spots
+  - Built a lightweight scoring model combining preferred categories, seasons, age groups, and additional heuristics
+  - Generated a natural-language one-day itinerary using the GPT API
+  - Integrated the recommendation API with the frontend and developed the recommendation popup UI
+  - ✨ For a detailed overview of the **Data & Recommendation Engine**, including scoring, preprocessing, and GPT-powered itinerary generation, see [RECOMMENDATION DOCS](docs/recommendation.md).
 
 - **Ranking System (Backend + Frontend)**
   - Built the ranking logic based on conquered regions and accumulated user points.
   - Developed APIs and implemented the leaderboard UI in Vue.
 
 - **Point System (Backend  + Frontend)**
-  - Designed and implemented a multi-rule point mechanism, including:
-    - **+5 points** for conquering a new region (동 단위)
-    - **+10 bonus points** when conquering a region with fewer than 100 conquerors in the current month
-    - **+5 points** when receiving a like on a feed post
+  - Designed and implemented a multi-rule point mechanism, including rewards for region conquest, rare-region bonuses, and social interactions.
   - Implemented point deduction logic for in-app shop purchases.
   - Built APIs for retrieving a detailed point transaction history (earnings, deductions, event types).
   - Managed point logs and maintained users’ total accumulated points for ranking and shop usage.
@@ -70,7 +54,7 @@ I was responsible for both the **backend core logic** and several **frontend (Vu
     - Point display and shop interaction  
   - Ensured smooth communication between backend APIs and frontend components.
     
-Tech Stack (BE/FE/AI/Infra)
+
 ## 🛠 Tech Stack
 
 ### 💻 Backend  
